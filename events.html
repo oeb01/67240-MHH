@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events & Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="./events.html">Events & Services</a>
+            <a class="nav-link" href="#">Contact Us</a>
+            </div>
+        </div>
+        <a class="navbar-brand" href="#">
+            Minnie's Helping Hands
+        </a>
+    </div>
+  </nav>
+    <div class = "mt-4 mb-4 "> <!-- margin top and bottom-->
+        <h1 id="services"  class ="text-center">Services</h1>   <!-- centering text-->
+    </div>
+
+    <div class = "container" >  <!-- container, row, column structure in order to maintain responsive design-->
+        <div class = "row">
+            <div class = "col"> 
+                    <div id ="cards" class ="card border border-dark mx-auto mb-5 text-center" style="width: 500px"> <!-- card component for each book-->
+                        <img class = "card-img-top border-bottom border-dark" src="toy_drive.png" height="350px" width="500px"/> <!--connects image to the card-->
+                        <div class = "card-body">
+                            <h4 class = "card-title"> Toy Drive</h4>
+                            <p class = "card-text small" >  Our nonprofit organization is thrilled to offer a heartwarming Toy Drive initiative, spreading joy and making a positive impact in our community.</p>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header " id="flush-heading1">
+                                    <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapseOne">
+                                      <em>See more information</em>
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"> Through partnerships with generous donors like Toys for Tots, we have been able to collect and distribute over 100 toys to children and provided gift cards to teenagers in need. Collaborating with Sojourner House and the Homewood community on Kelly Street, our Toy Drive has become a beacon of festive spirit and communal support. Join us in making a difference by contributing to this initiative and bringing smiles to the faces of children and teenagers during this special time of the year. </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+            </div>
+             <div class = "col"> 
+                <div class ="card border border-dark mx-auto mb-5 text-center" style="width: 500px" > 
+                    <img class = "card-img-top border-bottom border-dark" src="clothing.png" height="350px" width="500px"/>
+                    <div class = "card-body">
+                        <h2 class = "card-title h4"> Clothing Drive</h2> 
+                        <p class = "card-text small">At our clothing drives,  we are dedicated to making a meaningful impact in the lives of individuals and families in the Pittsburgh community. </p>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-heading2">
+                                <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    <em>See more information</em>
+                                </button>
+                              </h2>
+                              <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"> With compassionate contributors like Light of Life distribution center, we've gathered a diverse amount of clothing items to provide warmth and comfort to those in need. Through the collaborative efforts of our supporters, we have been able to organize successful drives that caters to all age groups and sizes, ensuring that everyone receives the clothing they require. Join us in spreading warmth and fostering a sense of community by participating in our Clothing Drive. Your contributions will go a long way in making a positive difference and bringing comfort to those facing challenging circumstances. </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class = "col"> 
+                <div class ="card border border-dark mx-auto mb-5 text-center" style="width: 500px"> <!-- card component for each book-->
+                    <img class = "card-img-top border-bottom border-dark" src="house.png" height="350px" width="500px"/> <!--connects image to the card-->
+                    <div class = "card-body">
+                        <h2 class = "card-title h4"> Housing Support</h2>
+                        <p class = "card-text small"> Minnie's Helping Hands is dedicated to assisting individuals and families in finding stable living arrangements.</p>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-heading3">
+                                <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    <em>See more information</em>
+                                </button>
+                              </h2>
+                              <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">By discovering shelters and housing resources, we've successfully placed numerous individuals in secure accommodations, offering them a supportive foundation. Our commitment extends to providing a list of resources and relevant links. From aiding individuals with housing applications to supporting veterans and individuals seeking mental health housing, we strive to makethe process of finding housing solutions accessible. Our dedicated team is passionate about guiding individuals on the path to independent housing, ensuring that everyone has the opportunity for a secure and supportive living environment.</div>
+                              </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class = "col"> 
+                <div class ="card border border-dark mx-auto mb-5 text-center" style="width: 500px"> <!-- card component for each book-->
+                    <img class = "card-img-top border-bottom border-dark" src="reintegration.png" height="350px" width="500px"/> <!--connects image to the card-->
+                    <div class = "card-body">
+                        <h2 class = "card-title h4"> Reintegrating </h2>
+                        <p class = "card-text small">We focus on supporting individuals dealing with mental health challenges and substance abuse post-incarceration. </p>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-heading4">
+                                <button class="accordion-button collapsed text-primary " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    <em>See more information</em>
+                                </button>
+                              </h2>
+                              <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Through the Light of Life distribution center, we provide a range of essentials such as shirts, toiletries, general living supplies, and even specialized items like suits, dress shirts, and dress shoes for court appearances. Over the course of a 6-month program, we've personally assisted at least 50 individuals, and w hile some may not complete the 6-week program, our commitment remains consistent in providing support and resources to reintegrate individuals into society.</div>
+                              </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "mt-4 mb-4"> <!-- margin top and bottom-->
+        <h1 id="services" class = "text-center">Upcoming Events and Programs</h1>   <!-- centering text-->
+    </div>
+
+
+    <div class = "container" >  <!-- container, row, column structure in order to maintain responsive design-->
+        <div class = "row">
+            <div class = "col"> 
+                    <div class ="card border border-dark mx-auto mb-5 text-center" style="width: 500px"> <!-- card component for each book-->
+                        <img class = "card-img-top border-bottom border-dark" src="easter.png" height="350px" width="500px"/> <!--connects image to the card-->
+                        <div class = "card-body">
+                            <h2 class = "card-title h4"> Easter Baskets</h2>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-heading5">
+                                    <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <em>See more information</em>
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt officia cum fugiat illum atque quos animi, nostrum repellat consequatur adipisci quod ad autem modi deleniti distinctio rerum iste esse nam inventore ullam maxime at molestias eveniet! Tempore.</div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+            </div>
+             <div class = "col"> 
+                <div class ="card border border-dark mx-auto mb-5 text-center" style="width: 500px" > 
+                    <img class = "card-img-top border-bottom border-dark" src="ged.png" height="350px" width="500px"/>
+                    <div class = "card-body">
+                        <h2 class = "card-title h4"> GED Prep</h2> 
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-heading6">
+                                <button class="accordion-button collapsed text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    <em>See more information</em>
+                                </button>
+                              </h2>
+                              <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore minus quaerat ipsam nesciunt? Labore exercitationem porro magnam ut aperiam repellendus sit ipsum deserunt possimus obcaecati excepturi culpa nulla, distinctio dicta quidem consequatur id consectetur.</div>
+                              </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
