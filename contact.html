@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                <a class="nav-link" href="./about.html">About Us</a>
+                <a class="nav-link" href="./events.html">Events & Services</a>
+                <a class="nav-link" href="./contact.html">Contact Us</a>
+                </div>
+            </div>
+            <a class="navbar-brand" href="#">
+                Minnie's Helping Hands
+            </a>
+        </div>
+    </nav>
+    <div class = "mt-4 mb-4 "> <!-- margin top and bottom-->
+        <h1 id="ContactUs"  class ="text-center">Contact Us</h1>   <!-- centering text-->
+    </div>
+
+    <form action="http://www.example.com/review.php" method="get">
+        <fieldset class = "text-center">
+            <legend >Your Details:</legend>
+            <label>First Name: <input type="text" name="name" size="30" maxlength="100"></label><br>
+            <label>Last Name: <input type="email" name="email" size="30" maxlength="100"></label><br>
+            <label>Email: <input type="email" name="email" size="30" maxlength="100"></label><br>
+            <label>Phone Number: <input type="email" name="email" size="30" maxlength="100"></label><br>
+            <label>Business: <input type="email" name="email" size="30" maxlength="100"></label><br>
+        </fieldset><br>
+        <fieldset class = "text-center">
+            <legend>Comments</legend>
+            <p>
+                <label for="comments"></label><br>
+                <textarea rows="4" cols="40" id="comments"></textarea>
+            </p>
+            <label><input type="checkbox" name="subscribe" checked="checked"> Sign me up for email updates</label><br>
+            <input type="submit" value="Submit review">
+        </fieldset>
+    </form>
+</body>
+</html>
