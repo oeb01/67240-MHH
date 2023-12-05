@@ -1,27 +1,16 @@
 @font-face {
     font-family: Inter-Reg; /** downloaded google font for blog page**/
     src: url(./fonts/Inter-Regular.ttf);
-    font-weight: normal;
 }   
 
 h1 {
     text-align: center;
 }
 
-p {
-    font-size: 120%;
-}
-
 #button {
     display: flex;  
     justify-content: center;  
     align-items: center;  
-}
-
-#main {
-    padding-left: 6rem;
-    padding-right: 6rem;
-    margin: 2rem;
 }
 
 #services{
@@ -37,5 +26,5 @@ p {
 }
 
 .active {
-    background-color: yellow;
+    font-weight: bold;
 }
