@@ -1,0 +1,95 @@
+@font-face {
+    font-family: inter; /** downloaded google font for blog page**/
+    src: url(./fonts/Inter-Regular.ttf);
+    font-weight: normal;
+}  
+@font-face {
+    font-family: inter-bold; /** downloaded google font for blog page**/
+    src: url(./fonts/Inter-Bold.ttf);
+    font-weight: normal;
+}    
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 120%;
+}
+
+*{
+font-family:inter;
+}
+
+#button {
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}
+
+#main {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin: 2rem;
+}
+
+#services{
+    text-align: center;
+    
+}
+
+
+ul{
+    float: right;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: center;
+}
+
+.active {
+    background-color: yellow;
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {
+
+.card img{
+    height:200px;
+    width:350px;
+
+}
+
+  }
+
+#cards{
+    margin-left: 400px;
+}
+
+
+  @media screen and (max-width: 390px) {
+
+    .card img{
+        height:250px;
+        width:100%;
+    
+    }
+
+    #body.card-body{
+        flex-direction: column;
+        
+
+    }
+
+  }
+
+
+  .MYleft {
+    text-align: left;
+  }
