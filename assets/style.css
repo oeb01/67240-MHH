@@ -1,10 +1,15 @@
 @font-face {
     font-family: Inter-Reg; /** downloaded google font for blog page**/
     src: url(./fonts/Inter-Regular.ttf);
+    font-weight: normal;
 }   
 
 h1 {
     text-align: center;
+}
+
+ul{
+    float: right;
 }
 
 #button {
@@ -14,7 +19,7 @@ h1 {
 }
 
 #services{
-    font-family: Inter-Reg;
+    text-align: center;
 }
 
 .row {
@@ -27,4 +32,33 @@ h1 {
 
 .active {
     font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+    .card img{
+        height:200px;
+        width:350px;
+    }
+}
+    
+#cards {
+    margin-left: 400px;
+}
+    
+    
+@media screen and (max-width: 390px) {
+
+    .card img {
+        height:250px;
+        width:100%;
+    }
+
+    #body.card-body {
+        flex-direction: column;
+    }
+}
+
+
+.MYleft {
+    text-align: left;
 }
