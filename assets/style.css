@@ -27,7 +27,9 @@ ul{
     text-align: center;
 }
 
-
+.biggerli {
+    font-size: 20px;
+}
 .row {
     display: flex;
     flex-wrap: wrap;
