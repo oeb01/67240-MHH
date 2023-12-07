@@ -8,7 +8,7 @@ h1 {
     text-align: center;
 }
 
-ul {
+ul{
     float: right;
 }
 
@@ -18,9 +18,15 @@ ul {
     align-items: center;  
 }
 
+#ros {
+    margin: auto;
+    width: 515px;
+}
+
 #services{
     text-align: center;
 }
+
 
 .row {
     display: flex;
@@ -34,10 +40,18 @@ ul {
     font-weight: bold;
 }
 
-@media screen and (max-width: 992px) {
+.MYleft {
+    text-align: left;
+}
+
+@media screen and (max-width: 820px) {
     .card img{
         height:200px;
-        width:350px;
+        width:299px;
+    }
+
+    #cards{
+        width: 300px;;
     }
 }
     
@@ -53,12 +67,16 @@ ul {
         width:100%;
     }
 
+    .Ros img{
+        height:300px;
+        width:100%;
+    }
+     
+    #ros{
+        font-size: 15px;
+        width: 300px;
+    }
     #body.card-body {
         flex-direction: column;
     }
-}
-
-
-.MYleft {
-    text-align: left;
 }
